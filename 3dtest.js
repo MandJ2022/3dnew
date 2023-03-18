@@ -7,7 +7,7 @@ resize ()
 window.addEventListener('resize', resize)
 
 const context = canvas.getContext('2d');
-const frameCount = 27;
+const frameCount = 99;
 
 const currentFrame = (index) => `./pic/${(index + 1).toString()}.jpg`;
 const images = [];
